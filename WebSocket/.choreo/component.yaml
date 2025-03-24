@@ -1,0 +1,10 @@
+schemaVersion: 1.1
+endpoints:
+  - name: chat-ws
+    displayName: Chat WS
+    service:
+      port: 5007
+      basePath: /
+    type: WS
+    networkVisibilities:
+      - Public
